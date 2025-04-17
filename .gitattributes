@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+mkdir retest2.2-main
+
+cd retest2.2-main
+
+git init
+
+touch README.md
+
+git add .
+
+git commit -m "Initial commit"
